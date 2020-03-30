@@ -31,3 +31,7 @@
   width: 100%;
   min-height: 100%;
 }
+.subtitle {
+  text-align: center;
+  text-decoration: underline #554DA0;
+}
