@@ -26,3 +26,8 @@
   background-color: #90a4ae ;
 }
 
+#root{
+  background-color: #F0F2F5;
+  width: 100%;
+  min-height: 100%;
+}
