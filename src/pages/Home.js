@@ -75,6 +75,12 @@ class Home extends React.Component {
                             </Col>
                         </Row>
 
+                        <Row justify='center'>
+                            <Timeline mode="alternate" style={{width: '80%'}}>
+                                <Timeline.Item>Software Engineering Intern - American Museum of Natural History, New York</Timeline.Item>
+                                <Timeline.Item>Data Scientist Intern - Shift Technology, Paris</Timeline.Item>
+                            </Timeline>,
+                        </Row>    
 
                         <Row justify='center'>
                             <Col span={24}>
@@ -82,6 +88,19 @@ class Home extends React.Component {
                             </Col>
                         </Row>   
 
+                        <Row justify='center'>
+                            <Timeline 
+                                mode="alternate" 
+                                pending="Waiting for new projects ..." 
+                                style={{width: '80%'}}
+                                pendingDot={<Spin style={{ color: '#554DA0'}}/>}
+                            >
+                                <Timeline.Item>Fablab UTC Webapp</Timeline.Item>
+                                <Timeline.Item>Bobby Webapp</Timeline.Item>
+                                <Timeline.Item>Picasso Webapp</Timeline.Item>
+                                <Timeline.Item>Tips My Web</Timeline.Item>
+                            </Timeline>,
+                        </Row>    
 
 
                         <Row justify='center'>
